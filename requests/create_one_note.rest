@@ -1,0 +1,15 @@
+POST http://localhost:4000/notes
+Content-Type: application/json
+
+{
+    "content": "Nueva nota",
+    "important": "true"
+}
+
+### 
+
+POST http://localhost:4000/notes
+Content-Type: application/json
+
+{
+}
