@@ -90,7 +90,8 @@ app.use((request, response) => {
   response.status(404).json({ error: 'not found' })
 })
 
-const PORT = 4000
+const PORT = process.env.PORT || 4000
+
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`)
 })
